@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "指針函數", "指針函�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "字串", "字串\字串.vcxproj", "{15284E1C-9D8A-4246-8407-DC147DE5CEDF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "字串II", "字串II\字串II.vcxproj", "{679F4DA6-AD8B-43B1-9B40-0694C86B5C34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{15284E1C-9D8A-4246-8407-DC147DE5CEDF}.Release|x64.Build.0 = Release|x64
 		{15284E1C-9D8A-4246-8407-DC147DE5CEDF}.Release|x86.ActiveCfg = Release|Win32
 		{15284E1C-9D8A-4246-8407-DC147DE5CEDF}.Release|x86.Build.0 = Release|Win32
+		{679F4DA6-AD8B-43B1-9B40-0694C86B5C34}.Debug|x64.ActiveCfg = Debug|x64
+		{679F4DA6-AD8B-43B1-9B40-0694C86B5C34}.Debug|x64.Build.0 = Debug|x64
+		{679F4DA6-AD8B-43B1-9B40-0694C86B5C34}.Debug|x86.ActiveCfg = Debug|Win32
+		{679F4DA6-AD8B-43B1-9B40-0694C86B5C34}.Debug|x86.Build.0 = Debug|Win32
+		{679F4DA6-AD8B-43B1-9B40-0694C86B5C34}.Release|x64.ActiveCfg = Release|x64
+		{679F4DA6-AD8B-43B1-9B40-0694C86B5C34}.Release|x64.Build.0 = Release|x64
+		{679F4DA6-AD8B-43B1-9B40-0694C86B5C34}.Release|x86.ActiveCfg = Release|Win32
+		{679F4DA6-AD8B-43B1-9B40-0694C86B5C34}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
