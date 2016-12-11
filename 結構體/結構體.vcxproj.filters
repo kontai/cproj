@@ -29,10 +29,7 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-    <ClCompile Include="字串II.c">
-      <Filter>原始程式檔</Filter>
-    </ClCompile>
-    <ClCompile Include="字串處理.c">
+    <ClCompile Include="struct.c">
       <Filter>原始程式檔</Filter>
     </ClCompile>
   </ItemGroup>

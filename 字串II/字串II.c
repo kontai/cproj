@@ -8,12 +8,10 @@
 #include<string.h>
 
 int str_len(char *);
-void str_copy(char *,char*); //½Æ»s¦r¦ê
+void str_copy(char *, char*); //½Æ»s¦r¦ê
 void str_cat(char*, char*);//½Æ»s¦r¦ê¦Ü¥t¤@¦r¦ê¦r§À
 
-
-void main()
-{
+void main1() {
 	char a[18] = "dark black";
 	char b[10] = "rev 2.0";
 	char c[30];
@@ -24,46 +22,30 @@ void main()
 	str_cat(c, b);
 	printf("%s", c);
 
-
-
-
-
-
 	system("pause");
 }
-int  str_len(char *str)
-{
-	int len=0;
-	while(*str)
-	{
+int  str_len(char *str) {
+	int len = 0;
+	while (*str) {
 		len++;
 		str++;
 	}
 	return len;
-
-
 }
 
-void str_copy(char *dest,char *source)
-{
-
-	if(dest == NULL||source==NULL)
-	{
-		return ;
+void str_copy(char *dest, char *source) {
+	if (dest == NULL || source == NULL) {
+		return;
 	}
-	while(*source)
-	{
+	while (*source) {
 		*dest++ = *source++;
 	}
 	dest[0] = '\0';
-
 }
 
-void str_cat(char *dest,char*source)
-{
-	if(dest == NULL||source==NULL)
-	{
-		return ;
+void str_cat(char *dest, char*source) {
+	if (dest == NULL || source == NULL) {
+		return;
 	}
 
 	int len = str_len(dest);
@@ -77,13 +59,10 @@ void str_cat(char *dest,char*source)
 		dest += len;
 
 */
-		dest += len;
-	for (;*source;)
-{
+	dest += len;
+	for (;*source;) {
 		*dest = *source;
 		dest++, source++;
-}
+	}
 	*dest = '\0';
-
-
 }

@@ -21,7 +21,7 @@ char add(int num,...)
 }
 
 
-void main()
+void main2()
 {
 	add(3, "skdfji","weopiw","skldjfhw");
 
