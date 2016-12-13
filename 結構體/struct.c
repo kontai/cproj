@@ -5,32 +5,33 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
+#include <Windows.h>
 
 
-struct  tt1 
+struct mydata
 {
 	int num;
-	char str[10];
-	float fl;
-	struct fuse
-	{
-		int a1;
-		char c1[100];
-
-	}A1;
-	struct fuse B1;
+	char str[100];
 };
 
+void change(int *p1)
+{
+	*p1 = 23;
+}
 
 void main()
 {
-	struct tt1 m1 = { 2,"test",2.3 };
-	printf("%f\n", m1.fl);
-	m1.B1.a1 = 100;
-	printf("%d", m1.B1.a1);
+	struct mydata m1;
+	struct mydata *p = &m1;
 
+
+	sprintf((*p).str, "abc");
+	printf("%s\n", p->str);
+
+	change(p);
+	printf("%d", p->num);
 
 
 	system("pause");
-
 }
+
