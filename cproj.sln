@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "字串II", "字串II\字串
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "結構體", "結構體\結構體.vcxproj", "{AF248333-E73F-4335-BAE2-1C2887B4CF10}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "共用體", "共用體\共用體.vcxproj", "{BF9C9EB7-C56C-4BB8-B008-46C6E878DCC6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{AF248333-E73F-4335-BAE2-1C2887B4CF10}.Release|x64.Build.0 = Release|x64
 		{AF248333-E73F-4335-BAE2-1C2887B4CF10}.Release|x86.ActiveCfg = Release|Win32
 		{AF248333-E73F-4335-BAE2-1C2887B4CF10}.Release|x86.Build.0 = Release|Win32
+		{BF9C9EB7-C56C-4BB8-B008-46C6E878DCC6}.Debug|x64.ActiveCfg = Debug|x64
+		{BF9C9EB7-C56C-4BB8-B008-46C6E878DCC6}.Debug|x64.Build.0 = Debug|x64
+		{BF9C9EB7-C56C-4BB8-B008-46C6E878DCC6}.Debug|x86.ActiveCfg = Debug|Win32
+		{BF9C9EB7-C56C-4BB8-B008-46C6E878DCC6}.Debug|x86.Build.0 = Debug|Win32
+		{BF9C9EB7-C56C-4BB8-B008-46C6E878DCC6}.Release|x64.ActiveCfg = Release|x64
+		{BF9C9EB7-C56C-4BB8-B008-46C6E878DCC6}.Release|x64.Build.0 = Release|x64
+		{BF9C9EB7-C56C-4BB8-B008-46C6E878DCC6}.Release|x86.ActiveCfg = Release|Win32
+		{BF9C9EB7-C56C-4BB8-B008-46C6E878DCC6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
