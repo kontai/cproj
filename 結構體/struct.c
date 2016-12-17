@@ -19,7 +19,7 @@ void change(int *p1)
 	*p1 = 23;
 }
 
-void main()
+void main1()
 {
 	struct mydata m1;
 	struct mydata *p = &m1;
