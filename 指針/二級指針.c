@@ -2,7 +2,7 @@
 #include<time.h>
 
 
-void main() {
+void main2() {
 	int a[3][5] = { 0 };
 	int sum = 0;
 	for (int i = 0;i < 3;i++) {
