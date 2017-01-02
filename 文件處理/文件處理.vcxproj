@@ -146,6 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ferror perror 文件錯誤處理.c" />
     <ClCompile Include="fopen-read.c" />
     <ClCompile Include="fopen-write.c" />
     <ClCompile Include="fscanf and fprintf.c" />

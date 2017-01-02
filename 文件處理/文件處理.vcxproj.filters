@@ -30,5 +30,8 @@
     <ClCompile Include="fscanf and fprintf.c">
       <Filter>原始程式檔</Filter>
     </ClCompile>
+    <ClCompile Include="ferror perror 文件錯誤處理.c">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
