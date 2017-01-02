@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include<time.h>
 
 
 void main2() {

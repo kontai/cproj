@@ -15,24 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
+    <ClCompile Include="fopen-read.c">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-    <ClCompile Include="二級指針.c">
+    <ClCompile Include="fopen-write.c">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-    <ClCompile Include="test.c">
+    <ClCompile Include="_access.c">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="數據塊IO fread_and_fwrite.c">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="fscanf and fprintf.c">
       <Filter>原始程式檔</Filter>
     </ClCompile>
   </ItemGroup>
