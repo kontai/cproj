@@ -46,7 +46,7 @@ ps:最寬基本成員,char int double float ...;結構體、數駔都不是最寬基本成員
 
 
 
-void main()
+void main2()
 {
 	printf("%d\n", sizeof(struct addA));
 	printf("%d\n", sizeof(struct addB));

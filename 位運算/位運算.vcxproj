@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3F2B6F67-E7F8-464E-B57C-E549B3922168}</ProjectGuid>
+    <ProjectGuid>{6B468ABF-55D1-47F3-9B8E-90D92B1DCF80}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>位運算</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
@@ -146,7 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="位運算.c" />
+    <ClCompile Include="邏輯運算.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
