@@ -44,13 +44,19 @@
     <ClCompile Include="Vector使用Array初始化.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-    <ClCompile Include="Exam4.35.cpp">
-      <Filter>原始程式檔</Filter>
-    </ClCompile>
     <ClCompile Include="Exam4.41.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-    <ClCompile Include="operator.cpp">
+    <ClCompile Include="Exam5.18String轉char Array.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Exam4.35 vector string to charArray.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="named_casts具名強制類型轉換.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="cin.clear.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
   </ItemGroup>

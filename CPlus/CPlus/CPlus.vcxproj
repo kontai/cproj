@@ -149,9 +149,11 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Exam4.35.cpp" />
     <ClCompile Include="Exam4.41.cpp" />
-    <ClCompile Include="operator.cpp" />
+    <ClCompile Include="Exam4.35 vector string to charArray.cpp" />
+    <ClCompile Include="Exam5.18String轉char Array.cpp" />
+    <ClCompile Include="cin.clear.cpp" />
+    <ClCompile Include="named_casts具名強制類型轉換.cpp" />
     <ClCompile Include="Vector使用Array初始化.cpp" />
     <ClCompile Include="iterator.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>

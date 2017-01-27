@@ -14,17 +14,16 @@ int  mainIterator() {
 	vs.push_back(ch);
 	vs.push_back(ch2);
 
-	cout << vs[0]<<'\n'<<vs[1] << endl;
+	cout << vs[0] << '\n' << vs[1] << endl;
 
 	vector<string>::iterator ivst = vs.begin();
 	vector<string>::size_type len = vs.size();
-	while(len--)
-	{
+	while (len--) {
 		*ivst = "boring";
 		ivst++;
 	}
-	
-	cout << vs[0]<<'\n'<<vs[1] << endl;
+
+	cout << vs[0] << '\n' << vs[1] << endl;
 	string *st = &ch;
 	*st = "changed";
 	cout << *st << '\n' << ch << endl;
