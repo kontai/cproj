@@ -15,36 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
+    <ClCompile Include="..\CPlus\cin.clear.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-    <ClCompile Include="Y:\Documents\Qt\cpp\new_and_delete.cpp">
+    <ClCompile Include="..\CPlus\run_time_error.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-    <ClCompile Include="Y:\Documents\Qt\cpp\bitset.cpp">
-      <Filter>原始程式檔</Filter>
-    </ClCompile>
-    <ClCompile Include="named_casts具名強制類型轉換.cpp">
-      <Filter>原始程式檔</Filter>
-    </ClCompile>
-    <ClCompile Include="do-while.cpp">
-      <Filter>原始程式檔</Filter>
-    </ClCompile>
-    <ClCompile Include="return ref to local.cpp">
-      <Filter>原始程式檔</Filter>
-    </ClCompile>
-    <ClCompile Include="inline.cpp">
+    <ClCompile Include="..\CPlus\除錯.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
   </ItemGroup>
