@@ -9,11 +9,11 @@ void error(const string &, char);
 
 int mainExam7_34()
 {
-	int index, upperBound;
-	char selectVal;
-	error("Subscript out of bound: ", index, upperBound);
-	error("Division by zero");
-	error("Invalid selection",selectVal);
+	int index=0, upperBound=0;
+	char selectVal(' ');
+	//error("Subscript out of bound: ", index, upperBound);
+	//error("Division by zero");
+	//error("Invalid selection",selectVal);
 
 
 	system("pause");

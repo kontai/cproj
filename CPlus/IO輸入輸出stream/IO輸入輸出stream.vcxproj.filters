@@ -24,5 +24,14 @@
     <ClCompile Include="set and clear iostate.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
+    <ClCompile Include="清空緩衝區.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="fstream檔案開啟關閉.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="fstream連續讀取.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

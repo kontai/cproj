@@ -25,6 +25,7 @@
     <ClCompile Include="..\CPlus\Exam6.25.cpp" />
     <ClCompile Include="..\CPlus\Exam7.14.cpp" />
     <ClCompile Include="Exam7.34_Overload.cpp" />
+    <ClCompile Include="Exam8.6.cpp" />
     <ClCompile Include="My_Sales_main.cpp" />
     <ClCompile Include="My_Sales.cpp" />
   </ItemGroup>
@@ -36,6 +37,7 @@
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>習題cpp</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>習題</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
