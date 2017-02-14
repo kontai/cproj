@@ -18,27 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\CPlus\Exam4.35 vector string to charArray.cpp" />
-    <ClCompile Include="..\CPlus\Exam4.41.cpp" />
-    <ClCompile Include="..\CPlus\Exam5.18String轉char Array.cpp" />
-    <ClCompile Include="..\CPlus\Exam6.25.cpp" />
-    <ClCompile Include="..\CPlus\Exam7.14.cpp" />
-    <ClCompile Include="Exam7.34_Overload.cpp" />
-    <ClCompile Include="Exam8.6.cpp" />
-    <ClCompile Include="Exam9.2.1.cpp" />
-    <ClCompile Include="My_Sales_main.cpp" />
-    <ClCompile Include="My_Sales.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="My_Sales.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{22286A1B-FAF2-44E2-87D7-6E41FDF97626}</ProjectGuid>
+    <ProjectGuid>{B4D853D0-C10F-4129-94DD-48640D032513}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>習題cpp</RootNamespace>
+    <RootNamespace>循序式容器</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
-    <ProjectName>習題</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -138,9 +122,9 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -156,11 +140,16 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="assign and swap.cpp" />
+    <ClCompile Include="insert and erase.cpp" />
+    <ClCompile Include="初始化.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
