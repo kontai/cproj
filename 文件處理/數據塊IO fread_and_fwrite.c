@@ -5,25 +5,20 @@
 void mainWriteInt() {
 	int ch[100];
 	char path[20] = "c:\\二進制.txt";
-	for (int i = 0;i < 100;i++)
-	{
+	for (int i = 0;i < 100;i++) {
 		ch[i] = i;
 	}
 
 	FILE *pt;
 	pt = fopen(path, "wb");
-	if(pt==NULL)
-	{
+	if (pt == NULL) {
 		printf("文件開啟失敗");
 	}
-	else
-	{
-
+	else {
 		printf("文件開啟成功");
-		int res=0;   //儲存文件寫入數量
+		int res = 0;   //儲存文件寫入數量
 		res = fwrite(ch, sizeof(int), 100, pt);
-		if(res!=100)
-		{
+		if (res != 100) {
 			printf("error");
 		}
 		//fwrite
@@ -33,8 +28,6 @@ void mainWriteInt() {
 			//第四個參數:要寫入的目標文件
 		fclose(pt);
 	}
-
-
 
 	system("pause");
 }
@@ -48,7 +41,6 @@ void mainReadInt() {
 		printf("文件開啟失敗");
 	}
 	else {
-
 		printf("文件開啟成功");
 		int res = 0;   //儲存文件寫入數量
 		res = fread(ch, sizeof(int), 100, pt);
@@ -56,7 +48,6 @@ void mainReadInt() {
 			printf("error");
 		}
 		for (int i = 0;i < 100;i++) {
-
 			printf("ch[%d]=%d\n", i, ch[i]);
 		}
 	}
