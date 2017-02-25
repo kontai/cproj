@@ -33,5 +33,14 @@
     <ClCompile Include="ferror perror 文件錯誤處理.c">
       <Filter>原始程式檔</Filter>
     </ClCompile>
+    <ClCompile Include="文件定位讀寫.c">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="ftell and fseek 文件定位與查找.c">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="fseek.c">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
