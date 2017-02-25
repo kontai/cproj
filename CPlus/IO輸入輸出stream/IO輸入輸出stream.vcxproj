@@ -146,12 +146,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\CPlus\istringstream用法.cpp" />
+    <ClCompile Include="..\CPlus\stringstream用法.cpp" />
     <ClCompile Include="fstream連續讀取.cpp" />
     <ClCompile Include="set and clear iostate.cpp" />
     <ClCompile Include="condition stats.cpp" />
     <ClCompile Include="iostream.cpp" />
     <ClCompile Include="fstream檔案開啟關閉.cpp" />
+    <ClCompile Include="檔案輸入與輸出.cpp" />
     <ClCompile Include="清空緩衝區.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

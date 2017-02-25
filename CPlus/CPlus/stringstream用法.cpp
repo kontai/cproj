@@ -11,7 +11,7 @@ using namespace std;
 
 int cnt(string);
 
-int main()
+int mainStringStream()
 {
 	ostringstream out;
 	int inA = 22, inB = 55;
