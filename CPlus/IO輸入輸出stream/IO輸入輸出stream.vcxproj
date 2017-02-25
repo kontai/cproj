@@ -146,6 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\CPlus\istringstream用法.cpp" />
     <ClCompile Include="fstream連續讀取.cpp" />
     <ClCompile Include="set and clear iostate.cpp" />
     <ClCompile Include="condition stats.cpp" />

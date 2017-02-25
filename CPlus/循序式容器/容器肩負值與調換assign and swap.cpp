@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main() {
+int mainAssign_Swap() {
 	vector<string>lstr, lstr2, lstr3 = { "peace","world","rule","road" };
 
 	vector<string>::size_type index = 0;

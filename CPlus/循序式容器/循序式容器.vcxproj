@@ -146,8 +146,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="assign and swap.cpp" />
-    <ClCompile Include="insert and erase.cpp" />
+    <ClCompile Include="string.cpp" />
+    <ClCompile Include="容器肩負值與調換assign and swap.cpp" />
+    <ClCompile Include="容器增長Capacity and reserce.cpp" />
+    <ClCompile Include="容器增加與移除元素insert and erase.cpp" />
     <ClCompile Include="初始化.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

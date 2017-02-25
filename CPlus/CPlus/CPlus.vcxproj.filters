@@ -29,12 +29,6 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-    <ClCompile Include="Y:\Documents\Qt\cpp\new_and_delete.cpp">
-      <Filter>原始程式檔</Filter>
-    </ClCompile>
-    <ClCompile Include="Y:\Documents\Qt\cpp\bitset.cpp">
-      <Filter>原始程式檔</Filter>
-    </ClCompile>
     <ClCompile Include="named_casts具名強制類型轉換.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
