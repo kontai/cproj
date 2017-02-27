@@ -7,12 +7,11 @@ using namespace std;
 //¬°Áô³ëªºthis°Ñ¼Æ«¬§O,¦¹³B¦Pµ¥this->isbn(©I¥s¨ç¼Æªºª«¥ó,¨äª«¥óªºclass¦¨­ûisbn)
 //"constª«¥ó"©ÎªÌ"point to constª«¥ó",¥u¯à¥Î¨Ó©I¥sconst¦¨­û¨ç¼Æ
 
-class Sales_Item
-{
+class Sales_Item {
 public:
 	double avg_prince() const;
 	bool same_isbn(const Sales_Item &rha)	const		//©w¸q©óclass¤ºªº¦¨­û¨ç¦¡,±N³Qµø¬°inline¨ç¦¡.
-	{																					
+	{
 		return isbn == rha.isbn;											//¦¨­û¨ç¦¡¥i¦s¨ú¨äclassªºprivate¦¨­û
 	}
 
@@ -28,13 +27,9 @@ double Sales_Item::avg_prince() const		//¦¨­û¨ç¦¡¥²¶·¦bclass¤º©w¸q,¦ý¨ç¦¡¥DÅé¥i¥
 		return revence / units_sold;
 	else
 		return 0;
-	}
+}
 
-int mainClassSales()
-{
-	
-
-
+int mainClassSales() {
 	system("pause");
 	return 0;
 }

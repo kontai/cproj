@@ -4,9 +4,7 @@
 
 using namespace std;
 
-int mainExam6_25()
-{
-
+int mainExam6_25() {
 	string str;
 	while (cin >> str) {
 #ifndef NDEBUG

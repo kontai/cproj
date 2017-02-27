@@ -5,12 +5,10 @@
 
 using namespace std;
 
-int main檔案輸入與輸出()
-{
+int main檔案輸入與輸出() {
 	ifstream input;
 	input.open("c:\\temp\\1.txt");
-	if(!input)
-	{
+	if (!input) {
 		cerr << "file not exist" << endl;
 	}
 	string strA, strB;
@@ -20,7 +18,7 @@ int main檔案輸入與輸出()
 
 	ofstream output;
 	string file_path = "c:\\temp\\2.txt";
-	output.open(file_path,ios::app);
+	output.open(file_path, ios::app);
 	if (!output)
 		cerr << "open file fail!";
 	output << "nothing is impossible," << "otherwise you do nothong\n"

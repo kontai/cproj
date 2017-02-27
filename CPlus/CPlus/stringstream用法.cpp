@@ -11,26 +11,24 @@ using namespace std;
 
 int cnt(string);
 
-int mainStringStream()
-{
+int mainStringStream() {
 	ostringstream out;
 	int inA = 22, inB = 55;
-	out << "Hello! " << inA ;   //將字串賦予給ostringstream
-	 cout<< out.str()<<endl;
+	out << "Hello! " << inA;   //將字串賦予給ostringstream
+	cout << out.str() << endl;
 	string str = out.str();
 	cout << str << endl;
 
 	istringstream in;
-	int change_int=0;
+	int change_int = 0;
 	string st2int = "5566";
 	in.str(st2int);
 	in >> change_int;   //由字串轉換成整數
-	cout << change_int<<endl;
-
+	cout << change_int << endl;
 
 	cout << "請輸入編碼(任意字母+數字<CTRL+Z結束)=>";
-	string find_int ;
-		int  total = 0;
+	string find_int;
+	int  total = 0;
 	while (getline(cin, find_int)) {
 		in.clear();
 		in.str(find_int);
@@ -39,15 +37,15 @@ int mainStringStream()
 			total += cnt(dump);
 		}
 	}
-	cout <<"字串內整數種和="<< total<<endl;
+	cout << "字串內整數種和=" << total << endl;
 	system("pause");
 	return 0;
 }
 int cnt(string str) {
 	string::iterator id = str.begin();
-	int sum = 0,f_total=0;
+	int sum = 0, f_total = 0;
 	while (id != str.end()) {
-		if (*id >= '0' && *id <= '9') 
+		if (*id >= '0' && *id <= '9')
 			sum = *id - '0' + 10 * sum;
 		else {
 			f_total += sum;
@@ -56,7 +54,7 @@ int cnt(string str) {
 		id++;
 	}
 
-			f_total +=sum;
-			cout << f_total<<endl;
+	f_total += sum;
+	cout << f_total << endl;
 	return f_total;
 }

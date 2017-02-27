@@ -4,12 +4,11 @@
 using namespace std;
 
 int mainMysales() {
-	My_Sales item,total,trans;
+	My_Sales item, total, trans;
 	//cout << "ISBN=>" << endl;
-	//while (item.input(cin)) 
+	//while (item.input(cin))
 	//	item.output(cout);
-	if(item.input(cin))
-	{
+	if (item.input(cin)) {
 		while (trans.input(cin)) {
 			if (item.same_isbn(trans)) {
 				item.add(trans);
@@ -20,12 +19,11 @@ int mainMysales() {
 			}
 			total.output(cout);
 		}
-		}
-		else
-		{
-			cout << "No Data!?" << endl;
-			return -1;
-		}
+	}
+	else {
+		cout << "No Data!?" << endl;
+		return -1;
+	}
 
 	system("pause");
 	return 0;
