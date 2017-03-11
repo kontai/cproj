@@ -13,7 +13,7 @@ int mainFstreamIO() {
 	//ifstream in(ifile.c_str()); //創建ifstream,並將他綁定於指定檔案上
 	//檔案名稱須為C-String,建議用string轉化為c-string  string.c_str()
 
-	ofstream out;  
+	ofstream out;
 	out.open("c:\\temp\\1.txt");
 	//	ofstream out(ifile.c_str());	//創建ofstream,並將他綁定於指定檔案上
 

@@ -23,13 +23,11 @@ make_pair(v1, 以 v1 和 v2 值創建一個新 pair 物件，其元素類型分別是 v2) 	v1 和 v2
 
 typedef pair<string, string> Author;
 
-int mainPair()
-{
-//Author pstr("honor", "return"); 使用typedef簡化初始化
+int mainPair() {
+	//Author pstr("honor", "return"); 使用typedef簡化初始化
 	pair<string, string> pstr;
 	string first_s, second_s;
-	while(cin>>first_s>>second_s)
-	{
+	while (cin >> first_s >> second_s) {
 		pstr = make_pair(first_s, second_s);  //利用make_pair初始化,比起下式,更明確表明pair行為
 	//	pstr = pair<string, string>(first_s, second_s);	作用如上
 	}

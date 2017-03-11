@@ -150,10 +150,10 @@
     <ClCompile Include="fopen-read.c" />
     <ClCompile Include="fopen-write.c" />
     <ClCompile Include="fscanf and fprintf.c" />
-    <ClCompile Include="fseek.c" />
     <ClCompile Include="ftell and fseek 文件定位與查找.c" />
     <ClCompile Include="_access.c" />
     <ClCompile Include="數據塊IO fread_and_fwrite.c" />
+    <ClCompile Include="文件型結構體.c" />
     <ClCompile Include="文件定位讀寫.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

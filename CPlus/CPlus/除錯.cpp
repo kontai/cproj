@@ -5,7 +5,6 @@
 using namespace std;
 
 int mainNDEBUG() {
-
 	/*
 #ifndef NDEBUG
 	cerr << "從ifndef到endif之間的程式碼,只有在開發時會執行"
@@ -13,7 +12,7 @@ int mainNDEBUG() {
 
 	string str;
 	cin >> str;
-	assert(isupper(str[0]));		
+	assert(isupper(str[0]));
 	//當首字非大寫字母,返回false,assert當中斷程序,並顯示錯誤訊息
 	///////////////////
 	assert : 非標準庫函數,而是巨集NDEBAUG所定義

@@ -26,14 +26,12 @@ int main9_13()
 		ivec.push_back(index * 2);
 		index++;
 	}
-		
 
 	vector<int>::iterator it=find(ivec.begin(), ivec.end(), 5);
 	if (it != ivec.end())
 		cout << *it << endl;
 	else
 		cout << "not found!";
-
 
 	system("pause");
 	return 0;
@@ -50,7 +48,7 @@ int main9_14()
 	{
 		vstr.push_back(str);
 	}
-	
+
 	vector<string>::iterator it = vstr.begin();
 while(it!=vstr.end())
 {
@@ -62,22 +60,19 @@ while(it!=vstr.end())
 }
 */
 
-int main9_15()
-{
+int main9_15() {
 	string str;
 	list<string>lstr;
 
-	while(cout << "please input=>",getline(cin,str))
-	{
+	while (cout << "please input=>", getline(cin, str)) {
 		lstr.push_back(str);
 	}
-	
+
 	list<string>::iterator it = lstr.begin();
-while(it!=lstr.end())
-{
-	cout << *it << endl;
-	it++;
-}
+	while (it != lstr.end()) {
+		cout << *it << endl;
+		it++;
+	}
 	system("pause");
 	return 0;
 }
