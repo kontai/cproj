@@ -24,6 +24,7 @@
     <ClCompile Include="..\CPlus\Exam5.18String轉char Array.cpp" />
     <ClCompile Include="..\CPlus\Exam6.25.cpp" />
     <ClCompile Include="..\CPlus\Exam7.14.cpp" />
+    <ClCompile Include="..\演算法\Exam11.1.cpp" />
     <ClCompile Include="Exam10.1.cpp" />
     <ClCompile Include="Exam7.34_Overload.cpp" />
     <ClCompile Include="Exam8.6.cpp" />

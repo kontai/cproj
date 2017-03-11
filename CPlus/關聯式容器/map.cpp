@@ -30,6 +30,7 @@ int mainMap_Multimap() {
 	}
 
 	cout << "最簡單map查找:\t" << a[2] << endl;
+//	cout << "key=2  共有" << word_count.count(2) << "個" << endl;   //count():返回元素個數
 
 	cout << "map大小:" << a.size() << "\n\n" << "map內容為:" << endl;
 	map<int, string>::iterator i = a.begin();
