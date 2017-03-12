@@ -1,17 +1,34 @@
 #include <iostream>
-#include <string>
+#include<string>
+#include <map>
 #include <vector>
 
 using namespace std;
 
-int main() {
-	vector<int>inc;
-	for (vector<int>::size_type i = 0;i < 10;i++) {
-		inc.push_back(i);
+typedef  multimap<vector<string>, vector<int> > IMap;
+int main()
+{
+	vector<string>vs;
+	vector<int>vin;
+	IMap d;
+	string ist;
+	int in;
+	while(cin>>ist>>in)
+	{
+		vs.push_back(ist);
+		vin.push_back(in);
+		d.insert( make_pair(vs, vin));
 	}
-	//inc.clear();
-	cout << inc.size()<<endl;
 
+	IMap::iterator im=d.begin();
+
+	while(im!=d.end())
+	{
+		cout <<  im->first << ' ' << im->second << endl;
+		im++;
+	}
+	
+	
 
 	system("pause");
 	return 0;
