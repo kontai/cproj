@@ -6,7 +6,6 @@
 #include <stdarg.h>
 #include <string.h>
 
-
 char add(int num,...)
 {
 	va_list arg ;
