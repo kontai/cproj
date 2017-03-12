@@ -19,7 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="accumulatepp.cpp" />
+    <ClCompile Include="accumulate.cpp" />
+    <ClCompile Include="copy.cpp" />
+    <ClCompile Include="fill 與 fill_n.cpp" />
+    <ClCompile Include="sort.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{79A679B3-7861-46D9-AE55-502062035893}</ProjectGuid>

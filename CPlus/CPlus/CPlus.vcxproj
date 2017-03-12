@@ -153,6 +153,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="inline.cpp" />
+    <ClCompile Include="new.cpp" />
     <ClCompile Include="return ref to local.cpp" />
     <ClCompile Include="named_casts具名強制類型轉換.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>

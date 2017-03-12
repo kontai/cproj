@@ -10,7 +10,7 @@ using namespace std;
 
  pair<T1, T2> p1(v1, v2); 創建一個 pair 物件，它的兩個元素分別是 T1 和 T2 ，其中 first 成員初始化為 v1，而 second 成員初始化為 v2
 
-make_pair(v1, 以 v1 和 v2 值創建一個新 pair 物件，其元素類型分別是 v2) 	v1 和 v2 的類型
+make_pair(v1, v2) 以 v1 和 v2 值創建一個新 pair 物件，其元素類型分別是 v1 和 v2 的類型
 
  p1 < p2 	兩個 pair 物件之間的小於運算，其定義遵循字典次序：如果 p1.first < p2.first 或者 !(p2.first < p1.first) &&  p1.second < p2.second，則返回 true
 
