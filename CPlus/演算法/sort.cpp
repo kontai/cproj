@@ -17,7 +17,7 @@ bool GT5(const string &s3)
 	return s3.size() > 5;
 }
 
-int main()
+int mainSort()
 {
 	vector<string>word;
 	string next_word;

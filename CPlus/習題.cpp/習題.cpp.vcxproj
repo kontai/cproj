@@ -25,7 +25,10 @@
     <ClCompile Include="..\CPlus\Exam6.25.cpp" />
     <ClCompile Include="..\CPlus\Exam7.14.cpp" />
     <ClCompile Include="..\演算法\Exam11.1.cpp" />
+    <ClCompile Include="..\演算法\Exam11.18.cpp" />
+    <ClCompile Include="..\演算法\Exam11.3.3.cpp" />
     <ClCompile Include="Exam10.1.cpp" />
+    <ClCompile Include="Exam11.3.1.cpp" />
     <ClCompile Include="Exam7.34_Overload.cpp" />
     <ClCompile Include="Exam8.6.cpp" />
     <ClCompile Include="Exam9.2.1.cpp" />
@@ -59,7 +62,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">

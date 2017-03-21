@@ -22,7 +22,10 @@
     <ClCompile Include="accumulate.cpp" />
     <ClCompile Include="copy.cpp" />
     <ClCompile Include="fill 與 fill_n.cpp" />
+    <ClCompile Include="iostream iterator.cpp" />
+    <ClCompile Include="reverse_iterator.cpp" />
     <ClCompile Include="sort.cpp" />
+    <ClCompile Include="Insert Iterator.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{79A679B3-7861-46D9-AE55-502062035893}</ProjectGuid>
@@ -47,7 +50,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
