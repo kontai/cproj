@@ -2,18 +2,26 @@
 
 using namespace std;
 
-//	bool same_isbn(const Sales_Item &rha)	const	//
-//ㄧ计ソЮconst,ㄧ计constΘㄧ计
-//留畴this把计,矪单this->isbn(㊣ㄧ计ン,ㄤンclassΘisbn)
-//"constン"┪"point to constン",ノㄓ㊣constΘㄧ计
+/************************************************************************/
+/* classΑ常秈繷郎,ex:Sales_Item.h (class嘿㏑)
+ * class砰﹚竡ΘㄧΑ玥秈方郎(Sales_Item.ccp)
+/*
+/*	bool same_isbn(const Sales_Item &rha)	const	//
+/*  ㄧ计ソЮconst,ㄧ计constΘㄧ计
+/*  留畴this把计,矪单this->isbn(㊣ㄧ计ン,ㄤンclassΘisbn)
+/*  "constン"┪"point to constン",ノㄓ㊣constΘㄧ计                                                                     
+/************************************************************************/
 
 class Sales_Item {
 public:
 	double avg_prince() const;
 	bool same_isbn(const Sales_Item &rha)	const		//﹚竡classずΘㄧΑ,盢砆跌inlineㄧΑ.
 	{
-		return isbn == rha.isbn;											//ΘㄧΑㄤclassprivateΘ
+		return isbn == rha.isbn;						//ΘㄧΑㄤclassprivateΘ
 	}
+	Sales_Item():units_sold(0),revence(0.0){ }			//篶Α:ΘㄧΑ,礚;摸钡帝ま计(),玙腹オ珹腹ず砞竚Θㄧ计(default).
+														//篶Α┕┕﹚竡classずΘ(獶ず)
+	Sales_Item(const int &ir,const double &id):units_sold(ir),revence(id){ }
 
 private:
 	std::string isbn;

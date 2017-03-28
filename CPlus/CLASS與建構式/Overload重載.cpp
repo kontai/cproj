@@ -13,7 +13,7 @@ using namespace std;
 void wh(int) {
 };
 void wh(double);
-//void wh(const double); //error:非reference參數,const與非const實際上是相同的(只是複製引數值)
+//void wh(const double); //error:如果引數不是reference,const與非const實際上是相同的(只是複製引數值)
 
 //const reference diff. w/ reference
 void wh(const string &);
@@ -31,5 +31,9 @@ int mainOver_load() {
 	wh(20);
 
 	system("pause");
+	return 0;
+}
+
+long wh(long * const) {
 	return 0;
 }
