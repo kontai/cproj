@@ -32,11 +32,11 @@ string Person::getadd()
 	{
 		return address;
 	}
-	string getname()
+	string Person::getname()
 	{
 		return name;
 	}
-int main(){
+int mainLabel(){
 	string n = "kontai";
 	string a = "taouyam";
 	tests.address = n;
