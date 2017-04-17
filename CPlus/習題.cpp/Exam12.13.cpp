@@ -1,6 +1,6 @@
 /****************************************
-[4/13/2017  06:24]
-Exam12.13.cpp
+[4/16/2017  16:20]
+class1.cpp
 ****************************************/
 
 #include<iostream>
@@ -8,70 +8,64 @@ Exam12.13.cpp
 
 using namespace std;
 
-class Screen {
-public:
+class Screen
+{
 	typedef string::size_type index;
-	char set()const {
-		return content[cursor];
-	}
-	char get(index ht, index wd)const;
-	index get_cursor();
+public:
+	char get()const;
+	const char get(index , index)const ;
 
-	Screen(index wid, index hig, const string &str);
+	inline Screen& set(char);
+	inline Screen& move(index, index);
+	 Screen& display(ostream &os)
+	 {
+		 do_display(os); return *this;
+	 }
 
-	 Screen& move(index , index );
-	 Screen& set(char);
-	Screen& display(ostream &os) {
-		 do_display(os);
-		return *this;
-	}
-	const Screen& display(ostream &os)const {
-		 do_display(os);
-		return *this;
-	}
+Screen(index wd,index ht,const string& str):content(str),cursor(0),width(wd),height(ht){ }
 
 private:
 	string content;
 	index cursor;
-	index x, y;
-		void do_display(ostream &os)const
-		{
-			os << content;
-		};
+	index width, height;
+	void do_display(ostream &os) {
+		os << content << endl;
+	}
 };
 
-Screen::Screen(index wid, index hig, const string &str) :x(wid), y(hig), content(str), cursor(0){ }
-
-inline char Screen::get(index ht,index wd)const
+inline char Screen::get()const
 {
-		index row = ht*x;
-		return content[row + y];
-}
-inline Screen::index Screen::get_cursor()
-	{
-		return cursor;
-	}
-
-Screen& Screen::move(index wd,index ht)
-{
-		index row = x*wd;
-		cursor = row + ht;
-	return *this;
+	return content[0];
 }
 
-Screen& Screen::set(char ch)
+	inline const char Screen::get(index x, index y)const
 {
-	content[cursor]=ch;
-	return *this;
+		index width = x*this->width;
+		return content[width];
+}
+
+	Screen& Screen::set(char ch)
+{
+		content[cursor] = ch;
+		return *this;
+}
+
+	Screen& Screen::move(index x,index y)
+{
+		index wid = y*height;
+		cursor = x + wid;
+		return *this;
 }
 
 
-int main(){
 
-	Screen my_screen(10,10,"abcdefghi\ndefghijkl\nmnopqrst");
-	my_screen.move(4, 0).set('#').display(cout);
-	
 
+int mainExam12_13(){
+	Screen myscreen(7, 7, "abcdef\nghijkl\nmnopqr\n");
+	cout << myscreen.get() << endl;
+	cout << myscreen.get(1,2) << endl;
+	myscreen.display(cout);
+	myscreen.move(1,1).set('#').move(1,2).set('%').display(cout);
 
 
 system("pause");

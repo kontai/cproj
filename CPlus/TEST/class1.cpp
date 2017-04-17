@@ -8,69 +8,65 @@ class1.cpp
 
 using namespace std;
 
-class Pressent
+class Screen
 {
-public:
 	typedef string::size_type index;
-	char get();
-	int get(int, int)const;
-	char str(const string&);
+public:
+	char get()const;
+	const char get(index , index)const ;
 
-	Pressent(int, int,const string&);
-	Pressent(const string& instr);
+	inline Screen& set(char);
+	inline Screen& move(index, index);
+	 Screen& display(ostream &os)
+	 {
+		 do_display(os); return *this;
+	 }
 
-	Pressent& ask(const string&);
-	Pressent& print(ostream &os);
-	 Pressent& move(index wd,index ht);
+Screen(index wd,index ht,const string& str):content(str),cursor(0),width(wd),height(ht){ }
 
 private:
-	int x,y;
-	string name;
+	string content;
+	index cursor;
+	index width, height;
+	void do_display(ostream &os) {
+		os << content << endl;
+	}
 };
 
-Pressent::Pressent(int a,int b,const string &st):x(a),y(b),name(st){}
-Pressent::Pressent(const string &ins):name(ins){ }
-
-char Pressent::get()
+inline char Screen::get()const
 {
-	return this->x;
+	return content[0];
 }
 
-int Pressent::get(int x,int y)const
+	inline const char Screen::get(index x, index y)const
 {
-	return	this->y;
+		index width = x*this->width;
+		return content[width];
 }
 
-char Pressent::str(const string& ins)
+	Screen& Screen::set(char ch)
 {
-//	return this->name[1];
-	return ins[0];
-}
-
-Pressent& Pressent::ask(const string& str)
-{
-	cout << str << endl;
-	return *this;
-}
-
-	Pressent& Pressent::print(ostream &os)
-{
-		os << name;
+		content[cursor] = ch;
 		return *this;
 }
-	 Pressent& Pressent::move(index wd,index ht)
+
+	Screen& Screen::move(index x,index y)
 {
+		index wid = y*height;
+		cursor = x + wid;
 		return *this;
 }
+
+
+
 
 int main(){
-	Pressent ini(2,3,"abcd\nefgh\nijkl");
-	Pressent str1("kkkkkkkk");
-	/*cout << ini.get(23,44) << endl;
-	cout << str1.str("abcd") << endl;
-	str1.ask("defghij");*/
-	ini.move(23,44).print(cout);
-	
+	Screen myscreen(7, 7, "abcdef\nghijkl\nmnopqr\n");
+	cout << myscreen.get() << endl;
+	cout << myscreen.get(1,2) << endl;
+	myscreen.display(cout);
+	myscreen.move(1,1).set('#').move(1,2).set('%').display(cout);
+
 
 system("pause");
 return 0;
