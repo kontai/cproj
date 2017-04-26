@@ -31,6 +31,9 @@
     <ClCompile Include="Exam11.3.1.cpp" />
     <ClCompile Include="Exam12.1.cpp" />
     <ClCompile Include="Exam12.13.cpp" />
+    <ClCompile Include="Exam12.18.cpp" />
+    <ClCompile Include="Exam12.19.cpp" />
+    <ClCompile Include="Exam12.23.cpp" />
     <ClCompile Include="Exam7.34_Overload.cpp" />
     <ClCompile Include="Exam8.6.cpp" />
     <ClCompile Include="Exam9.2.1.cpp" />

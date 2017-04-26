@@ -4,7 +4,7 @@ class重載.cpp
 ****************************************/
 /*
  * class重載的作用只對同一class內的成員函式有效;與外部的非成員函式或一般函式彼此不相干
- * 
+ *
  */
 #include<iostream>
 #include<string>
@@ -16,8 +16,7 @@ public:
 	char get()const {
 		return content[cursor];
 	}
-	char get(index wd, index ht)const
-	{
+	char get(index wd, index ht)const {
 		cout << wd << '\t' << ht << endl;
 		return 'a';
 	}
@@ -25,16 +24,13 @@ private:
 	string content;
 	index cursor;
 	index width, hight;
-
 };
 
 int mainClassOverload() {
 	Screen myscreen;
 	char ch;
-	ch=myscreen.get(0,0);
+	ch = myscreen.get(0, 0);
 
-
-
-system("pause");
-return 0;
+	system("pause");
+	return 0;
 }

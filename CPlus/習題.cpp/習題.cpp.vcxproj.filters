@@ -66,6 +66,15 @@
     <ClCompile Include="Exam12.13.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
+    <ClCompile Include="Exam12.18.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Exam12.19.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Exam12.23.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="My_Sales.h">

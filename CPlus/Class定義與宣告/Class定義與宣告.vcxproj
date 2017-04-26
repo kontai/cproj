@@ -117,7 +117,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="class作用域.cpp" />
     <ClCompile Include="class宣告與定義.cpp" />
+    <ClCompile Include="class建構式初值器%28p453%29.cpp" />
     <ClCompile Include="class成員函式.cpp" />
     <ClCompile Include="class標籤.cpp" />
     <ClCompile Include="class重載.cpp" />

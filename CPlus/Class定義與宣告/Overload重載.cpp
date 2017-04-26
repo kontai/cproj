@@ -10,40 +10,35 @@ using namespace std;
 (三)參數數量與型別,是重載區分條件
 */
 
-void wh(int a)
-{
+void wh(int a) {
 	cout << a << endl;
 }
 
-void wh(double a)
-{
+void wh(double a) {
 	cout << a << endl;
 }
 //void wh(const double); //error:如果引數不是reference,const與非const實際上是相同的(只是複製引數值)
 
 //const reference diff. w/ reference
 //void wh(const string &);
-void wh(string &a)
-{
+void wh(string &a) {
 	cout << a << endl;
 }
 
 //long wh(long*);
 //long wh(long *const); //重複宣告(const為指針本身[複製值],而非所指型別)
 
-int *wh(int*a)
-{
+int *wh(int*a) {
 	cout << a << endl;
 	return a;
 }
-double *wh(double*a)
-{
+double *wh(double*a) {
 	cout << a << endl;
 	return a;
 }
 
 int mainOverload() {
-	string ss ="One Two Three" ;
+	string ss = "One Two Three";
 	wh(ss);
 	wh(1.22);
 	wh(20);

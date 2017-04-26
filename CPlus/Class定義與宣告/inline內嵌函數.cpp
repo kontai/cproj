@@ -33,14 +33,12 @@ using namespace std;
 //return 0;
 //}
 
-class Mala
-{
-	public:
+class Mala {
+public:
 	char text1();
 	inline char text1(size_t r, size_t t2);
 	Mala(string &str);
 private:
 	string content;
 	size_t r, t2;
-
 };

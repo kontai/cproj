@@ -21,6 +21,10 @@ public:
 	 {
 		 do_display(os); return *this;
 	 }
+	 const Screen& display(ostream &os)const
+	 {
+		 do_display(os);return *this;
+	 }
 
 Screen(index wd,index ht,const string& str):content(str),cursor(0),width(wd),height(ht){ }
 
@@ -28,7 +32,7 @@ private:
 	string content;
 	index cursor;
 	index width, height;
-	void do_display(ostream &os) {
+	void do_display(ostream &os)const {
 		os << content << endl;
 	}
 };

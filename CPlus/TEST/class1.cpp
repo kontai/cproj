@@ -60,7 +60,7 @@ inline char Screen::get()const
 
 
 
-int main(){
+int mainClass1(){
 	Screen myscreen(7, 7, "abcdef\nghijkl\nmnopqr\n");
 	cout << myscreen.get() << endl;
 	cout << myscreen.get(1,2) << endl;
