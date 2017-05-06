@@ -124,6 +124,7 @@
     <ClCompile Include="class標籤.cpp" />
     <ClCompile Include="class重載.cpp" />
     <ClCompile Include="class隱式參數this.cpp" />
+    <ClCompile Include="class隱式轉換.cpp" />
     <ClCompile Include="inline內嵌函數.cpp" />
     <ClCompile Include="Overload重載.cpp" />
   </ItemGroup>
