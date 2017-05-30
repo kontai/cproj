@@ -30,7 +30,10 @@
     <ClCompile Include="重載關係運算符.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-    <ClCompile Include="重載賦值操作符.cpp">
+    <ClCompile Include="重載賦值與下標操作符.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="重載成員訪問操作符.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
   </ItemGroup>

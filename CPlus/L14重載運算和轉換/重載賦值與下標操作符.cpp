@@ -10,10 +10,14 @@ class String
 {
 public:
 	String(const char*);
-
+	
 	String& operator=(const String&);
+	String& operator=(const char*);
+	String& operator=(char*);
 
-	void print()
+	char& operator[](size_t) throw(String);
+
+	void print()const
 	{
 		cout << pstring << endl;
 	}
@@ -22,7 +26,10 @@ public:
 	
 private:
 	char *pstring;
+	static String errorMessage;
 };
+
+String String::errorMessage("Subscript out of range");
 
 String::String(const char* ch)
 {
@@ -41,17 +48,26 @@ String& String::operator=(const String& ass){
 	strcpy(pstring, ass.pstring);
 
 		return *this;
-	
 }
 
-int mainAssign_(){
+char& String::operator[](size_t index) throw(String)
+{
+		if (index >= strlen(pstring))
+			throw errorMessage;
+
+		return pstring[index];
+}
+
+int mainAss_Subscr(){
 	String str("hotdog");
 	String str2("pizza");
 	str2.print();
-
 	str2 = str;
-	
 	str2.print();
+	cout << str2[2] << endl;
+
+	String const str3("tea");
+	str3.print();
 
 
 

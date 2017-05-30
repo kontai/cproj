@@ -139,11 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="重載成員訪問操作符.cpp" />
     <ClCompile Include="重載算術運算符.cpp" />
     <ClCompile Include="重載IO運算子-input.cpp" />
     <ClCompile Include="重載IO運算子-output.cpp" />
     <ClCompile Include="重載操作符定義.cpp" />
-    <ClCompile Include="重載賦值操作符.cpp" />
+    <ClCompile Include="重載賦值與下標操作符.cpp" />
     <ClCompile Include="重載關係運算符.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
