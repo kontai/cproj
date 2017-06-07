@@ -38,6 +38,8 @@
     <ClCompile Include="Exam12.38.cpp" />
     <ClCompile Include="Exam13.10.cpp" />
     <ClCompile Include="Exam13.14.cpp" />
+    <ClCompile Include="Exam14.31.cpp" />
+    <ClCompile Include="Exam14.7.cpp" />
     <ClCompile Include="Exam7.34_Overload.cpp" />
     <ClCompile Include="Exam8.6.cpp" />
     <ClCompile Include="Exam9.2.1.cpp" />

@@ -33,7 +33,25 @@
     <ClCompile Include="重載賦值與下標操作符.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-    <ClCompile Include="重載成員訪問操作符.cpp">
+    <ClCompile Include="重載自增自減作符.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="重載成員存取運算符.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="重載函數調用操作符.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="重載函數調用操作符-2.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="重載函數調用操作符-3.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="重載函數調用操作符-4.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="轉換操作符.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
   </ItemGroup>

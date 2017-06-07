@@ -139,7 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="重載成員訪問操作符.cpp" />
+    <ClCompile Include="轉換操作符.cpp" />
+    <ClCompile Include="重載函數調用操作符-2.cpp" />
+    <ClCompile Include="重載函數調用操作符-3.cpp" />
+    <ClCompile Include="重載函數調用操作符-4.cpp" />
+    <ClCompile Include="重載函數調用操作符.cpp" />
+    <ClCompile Include="重載成員存取運算符.cpp" />
+    <ClCompile Include="重載自增自減作符.cpp" />
     <ClCompile Include="重載算術運算符.cpp" />
     <ClCompile Include="重載IO運算子-input.cpp" />
     <ClCompile Include="重載IO運算子-output.cpp" />
