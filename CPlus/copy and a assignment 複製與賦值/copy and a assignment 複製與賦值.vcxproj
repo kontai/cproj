@@ -18,46 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\CPlus\Exam4.35 vector string to charArray.cpp" />
-    <ClCompile Include="..\CPlus\Exam4.41.cpp" />
-    <ClCompile Include="..\CPlus\Exam5.18String轉char Array.cpp" />
-    <ClCompile Include="..\CPlus\Exam6.25.cpp" />
-    <ClCompile Include="..\CPlus\Exam7.14.cpp" />
-    <ClCompile Include="..\演算法\Exam11.1.cpp" />
-    <ClCompile Include="..\演算法\Exam11.18.cpp" />
-    <ClCompile Include="..\演算法\Exam11.3.3.cpp" />
-    <ClCompile Include="Exam10.1.cpp" />
-    <ClCompile Include="Exam11.3.1.cpp" />
-    <ClCompile Include="Exam12.1.cpp" />
-    <ClCompile Include="Exam12.13.cpp" />
-    <ClCompile Include="Exam12.18.cpp" />
-    <ClCompile Include="Exam12.19.cpp" />
-    <ClCompile Include="Exam12.23.cpp" />
-    <ClCompile Include="Exam12.24.cpp" />
-    <ClCompile Include="Exam12.38.cpp" />
-    <ClCompile Include="Exam13.10.cpp" />
-    <ClCompile Include="Exam13.14.cpp" />
-    <ClCompile Include="Exam14.31.cpp" />
-    <ClCompile Include="Exam14.7.cpp" />
-    <ClCompile Include="Exam7.34_Overload.cpp" />
-    <ClCompile Include="Exam8.6.cpp" />
-    <ClCompile Include="Exam9.2.1.cpp" />
-    <ClCompile Include="My_Sales_main.cpp" />
-    <ClCompile Include="My_Sales.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="My_Sales.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{22286A1B-FAF2-44E2-87D7-6E41FDF97626}</ProjectGuid>
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{39CDAF60-7454-424B-871B-D786142B46CA}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>習題cpp</RootNamespace>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
-    <ProjectName>習題</ProjectName>
+    <RootNamespace>copyandaassignment複製與賦值</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <ProjectName>L13.拷貝控制項</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -76,7 +43,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -123,11 +90,9 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -137,11 +102,9 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -153,13 +116,11 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -171,15 +132,23 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="複製構造函數與賦值操作符.cpp" />
+    <ClCompile Include="解構函數.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="plain-ptr.h" />
+    <ClInclude Include="smart-ptr.h" />
+    <ClInclude Include="value-ptr.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -15,40 +15,43 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="class標籤.cpp">
+    <ClCompile Include="重載操作符定義.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-    <ClCompile Include="inline內嵌函數.cpp">
+    <ClCompile Include="重載IO運算子-output.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-    <ClCompile Include="class成員函式.cpp">
+    <ClCompile Include="重載IO運算子-input.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-    <ClCompile Include="Overload重載.cpp">
+    <ClCompile Include="重載算術運算符.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-    <ClCompile Include="class重載.cpp">
+    <ClCompile Include="重載關係運算符.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-    <ClCompile Include="class宣告與定義.cpp">
+    <ClCompile Include="重載賦值與下標操作符.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-    <ClCompile Include="class隱式參數this.cpp">
+    <ClCompile Include="重載自增自減作符.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-    <ClCompile Include="class作用域.cpp">
+    <ClCompile Include="重載成員存取運算符.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-    <ClCompile Include="class建構式初值器%28p453%29.cpp">
+    <ClCompile Include="重載函數調用操作符.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-    <ClCompile Include="class隱式轉換.cpp">
+    <ClCompile Include="重載函數調用操作符-2.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-    <ClCompile Include="class友元friend.cpp">
+    <ClCompile Include="重載函數調用操作符-3.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-    <ClCompile Include="class靜態成員static.cpp">
+    <ClCompile Include="重載函數調用操作符-4.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="轉換操作符.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
   </ItemGroup>

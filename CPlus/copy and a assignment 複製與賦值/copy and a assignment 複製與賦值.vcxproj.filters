@@ -15,17 +15,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="class1.cpp">
+    <ClCompile Include="複製構造函數與賦值操作符.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-    <ClCompile Include="class2.cpp">
+    <ClCompile Include="解構函數.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-    <ClCompile Include="class3.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-    <ClCompile Include="String.cpp">
-      <Filter>原始程式檔</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="plain-ptr.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="value-ptr.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="smart-ptr.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
