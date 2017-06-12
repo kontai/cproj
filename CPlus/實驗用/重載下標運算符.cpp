@@ -27,7 +27,7 @@ Sub_class& Sub_class::operator[](const size_t index)const{
 }
 
 Sub_class(string& chptr){
-Sub_class *ptr=new string(chptr);
+Sub_class *ptr=new string(strlen(chptr));
 if(!ptr)
 throw
 cout<<"error"<<endl;
@@ -35,9 +35,8 @@ strcpy(ptr,chptr);
 ptrchar=ptr;
 }
 
-int main(){
+int mainaa(){
     Sub_class ss("abc");
-    Sub_class ss2[2]='a';
     string str("abc");
     string *str2=new string(str);
     *str2="def";
