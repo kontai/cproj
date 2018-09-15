@@ -1,8 +1,54 @@
-// stdafx.cpp : 僅包含標準 Include 檔的原始程式檔
-// 指針函數.pch 會成為先行編譯標頭檔
-// stdafx.obj 會包含先行編譯類型資訊
+/*
+2018/09/02 7:20:55
+stdafx.cpp
+*/
 
-#include "stdafx.h"
+#include<stdio.h>
+#include<stdlib.h>
 
-// TODO:  在 STDAFX.H 中參考您需要的任何其他標頭，
-// 而不要在這個檔案中參考
+int add(int a, int b) { return a + b; }
+int sub(int a, int b) { return a - b; }
+int mul(int a, int b) { return a * b; }
+int divv(int a, int b) { return a / b; }
+int mod(int a, int b) { return a % b; }
+
+void mainfuncP(){
+	int(*p)(int, int)=add;
+	printf("a+b=%d\n",p(2, 3));
+
+	int(*pa[])(int, int) = { add,sub,mul,divv,mod };
+	size_t size= sizeof(pa) / sizeof(int(*));
+	printf("size=%d\n", size);
+	for (size_t i = 0; i < size; i++)
+		//printf("%d\t", (*(pa + i))(2, 3));
+		printf("%d\t", (pa[i])(2, 3));
+
+//	int(**pp)(int, int) = (int (*[]))(int,int) { add, sub, mul, divv, mod };
+//	for (size_t i = 0; i < size; i++)
+//		printf("%d\t", pp[i](100, 10));
+
+	system("pause");
+}
+
+void mainJ() {
+	int(**p)(int, int) = (int(**)(int, int))malloc(sizeof(int(*)(int, int)) * 4);
+	*p = add;
+	*(p + 1) = sub;
+	*(p + 2) = mul;
+	*(p + 3) = divv;
+	*(p + 4) = mod;
+	size_t size = 5;
+
+	for (size_t i = 0; i < size; i++)
+		//printf("%d\t", (*(pa + i))(2, 3));
+		printf("%d\t", (p[i])(2, 3));
+	for (size_t i = 0; i < size; i++)
+	system("pause");
+}
+
+void main() {
+
+
+
+	system("pause")
+}
