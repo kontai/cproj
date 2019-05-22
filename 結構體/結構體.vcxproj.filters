@@ -29,9 +29,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>原始程式檔</Filter>
-    </ClCompile>
     <ClCompile Include="struct.c">
       <Filter>原始程式檔</Filter>
     </ClCompile>
@@ -39,6 +36,9 @@
       <Filter>原始程式檔</Filter>
     </ClCompile>
     <ClCompile Include="typedef.c">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="結構體與結構體數組副本機制.c">
       <Filter>原始程式檔</Filter>
     </ClCompile>
   </ItemGroup>

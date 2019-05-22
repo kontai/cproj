@@ -6,7 +6,7 @@
 #include <stdarg.h>
 #include <string.h>
 
-char add(int num,...)
+void add(int num,...)
 {
 	va_list arg ;
 	va_start(arg, num);
@@ -18,9 +18,9 @@ char add(int num,...)
 	}
 
 }
+CreateProcess()
 
-
-void main2()
+void main()
 {
 	add(3, "skdfji","weopiw","skldjfhw");
 

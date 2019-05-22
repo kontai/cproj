@@ -1,7 +1,6 @@
 // 結構體.cpp : 定義主控台應用程式的進入點。
 //
 #define _CRT_SECURE_NO_WARNINGS
-#include "stdafx.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>

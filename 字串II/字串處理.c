@@ -10,7 +10,7 @@ void findstring(char *, char *);
 void save_find(int);
 void print_find();
 
-void main() {
+void mainYY() {
 	char a[50] = { 0 };
 	char b[] = "brew install macvim install";
 	char *p = a;

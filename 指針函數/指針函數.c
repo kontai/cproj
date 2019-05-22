@@ -1,74 +1,51 @@
-// 指針函數.cpp : 定義主控台應用程式的進入點。
-//
+/*
+2018/09/02 7:20:55
+stdafx.cpp
+*/
 
-#include "stdafx.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include<stdio.h>
+#include<stdlib.h>
 
-#define row 3
-#define  columm 5
-#define score 59
-#define really_suck 29
+int add(int a, int b) { return a + b; }
+int sub(int a, int b) { return a - b; }
+int mul(int a, int b) { return a * b; }
+int divv(int a, int b) { return a / b; }
+int mod(int a, int b) { return a % b; }
 
-void get_rand(int(*)[columm]); //get random number
-void avg(int(*)[columm]); //make  average
-void sucks(int(*)[columm]);
+void mainfuncP(){
+	int(*p)(int, int)=add;
+	printf("a+b=%d\n",p(2, 3));
 
-void main1() {
-	int a[row][columm] = { 0 };
-	get_rand(a);
-	avg(a);
-	sucks(a);
+	int(*pa[])(int, int) = { add,sub,mul,divv,mod };
+	size_t size= sizeof(pa) / sizeof(int(*));
+	printf("size=%d\n", size);
+	for (size_t i = 0; i < size; i++)
+		//printf("%d\t", (*(pa + i))(2, 3));
+		printf("%d\t", (pa[i])(2, 3));
+
+//	int(**pp)(int, int) = (int (*[]))(int,int) { add, sub, mul, divv, mod };
+//	for (size_t i = 0; i < size; i++)
+//		printf("%d\t", pp[i](100, 10));
+
+}
+
+void mainJ() {
+	int(**p)(int, int) = (int(**)(int, int))malloc(sizeof(int(*)(int, int)) * 4);
+	*p = add;
+	*(p + 1) = sub;
+	*(p + 2) = mul;
+	*(p + 3) = divv;
+	*(p + 4) = mod;
+	size_t size = 5;
+
+	for (size_t i = 0; i < size; i++)
+		//printf("%d\t", (*(pa + i))(2, 3));
+		printf("%d\t", (p[i])(2, 3));
+}
+
+void mainL() {
+	mainJ();
+
 
 	system("pause");
-}
-
-void get_rand(int(*pr)[columm]) {
-	time_t time_1;
-	srand((unsigned)time(&time_1));
-
-	for (int i = 0;i < row;i++) {
-		for (int j = 0;j < columm;j++) {
-			pr[i][j] = rand() % 101;
-			printf("%d\t", pr[i][j]);
-		}
-		putchar('\n');
-	}
-}
-
-void avg(int(*pa)[columm]) {
-	double sum = 0;
-	for (int i = 0;i < row;i++) {
-		for (int j = 0;j < columm;j++) {
-			sum += pa[i][j];
-		}
-	}
-	printf("average = %f\n", sum / (row*columm));
-}
-
-void sucks(int(*psuck)[columm]) {
-	printf("(lower score)\n");
-	for (int i = 0;i < row;i++) {
-		int flag = 1, sflag = 1;
-		for (int j = 0;j < columm;j++) {
-			if (psuck[i][j] <= score) {
-				flag = 0;
-				if (psuck[i][j] <= really_suck) {
-					sflag = 0;
-				}
-				break;
-			}
-		}
-		if (flag == 0) {
-			for (int f = 0;f < columm;f++) {
-				printf("%d\t", psuck[i][f]);
-			}
-		}
-		if (sflag == 0) {
-			printf("<===really??");
-		}
-
-		putchar('\n');
-	}
 }

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="來源檔案">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="調用約定.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\temp\stock.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="fastcall實現.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="0129緩衝區溢出.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="0202返回值.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="0204結構體.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="0205結構體數組.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="0205結構體對齊.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="0206switch.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="0226指針-1.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="0227指針2.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="0228指針3-4.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="0303指針6.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="0304數組指針.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="0306函數指針.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="0309位運算.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="0310文件讀寫.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="0313PE節表.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
