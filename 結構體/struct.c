@@ -13,7 +13,7 @@ struct mydata
 	char str[100];
 };
 
-void change(int *p1)
+void changeA(int *p1)
 {
 	*p1 = 23;
 }
@@ -27,7 +27,7 @@ void main1()
 	sprintf((*p).str, "abc");
 	printf("%s\n", p->str);
 
-	change(p);
+	changeA(p);
 	printf("%d", p->num);
 
 

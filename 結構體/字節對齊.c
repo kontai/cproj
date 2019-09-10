@@ -51,6 +51,12 @@ ps:最寬基本成員,char int double float ...;結構體、數駔都不是最�
 		long long num4;
 	};
 
+	struct addStruct
+	{
+		struct addC c;
+		char a;
+	};
+
 
 
 
@@ -63,6 +69,7 @@ void mainXX()
 	printf("%d\n", sizeof(struct addB));
 	printf("%d\n", sizeof(struct addC));
 	printf("%d\n", sizeof(struct addD));
+	printf("%d\n", sizeof(struct addStruct));
 
 	system("pause");
 }

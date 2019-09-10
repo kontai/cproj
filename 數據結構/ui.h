@@ -1,0 +1,2 @@
+char uistr[];
+void uiMain();

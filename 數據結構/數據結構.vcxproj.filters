@@ -15,8 +15,34 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1.c">
+    <ClCompile Include="main.c">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="datastruct.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="dataarray.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="init.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="ui.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="datastruct.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="dataarray.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="init.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
