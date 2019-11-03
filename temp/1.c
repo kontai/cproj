@@ -14,7 +14,7 @@ union pc
 }pc1 = { .num = 1000 };
 
 typedef union pc PC;
-void main() {
+void mainPc() {
 	PC pc1 = { 100 };
 	PC pc2[] = { { 100 },{ 100 },{ 100 } };
 	PC *pc3 = (PC[]){ { 100 },{ 100 },{ 100 } };

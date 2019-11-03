@@ -32,5 +32,8 @@
     <ClCompile Include="共用體.c">
       <Filter>原始程式檔</Filter>
     </ClCompile>
+    <ClCompile Include="..\temp\1.c">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

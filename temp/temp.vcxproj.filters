@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1.c">
+    <ClCompile Include="cfun.c">
       <Filter>來源檔案</Filter>
     </ClCompile>
   </ItemGroup>
