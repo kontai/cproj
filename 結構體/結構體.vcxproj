@@ -156,6 +156,7 @@
     </ClCompile>
     <ClCompile Include="字節對齊.c" />
     <ClCompile Include="typedef.c" />
+    <ClCompile Include="結構體的偏移量.c" />
     <ClCompile Include="結構體與結構體數組副本機制.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -15,6 +15,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="fgets_test.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
     <ClCompile Include="cfun.c">
       <Filter>來源檔案</Filter>
     </ClCompile>

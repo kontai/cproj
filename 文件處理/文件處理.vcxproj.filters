@@ -42,5 +42,17 @@
     <ClCompile Include="文件型結構體.c">
       <Filter>原始程式檔</Filter>
     </ClCompile>
+    <ClCompile Include="文件的結構體讀寫.c">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="文件讀寫的基本操作.c">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="fread and fwrite文件按塊讀寫.c">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="fscanf fprintf 按照格式化讀寫文件.c">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

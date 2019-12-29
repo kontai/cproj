@@ -28,7 +28,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -149,12 +149,16 @@
     <ClCompile Include="ferror perror 文件錯誤處理.c" />
     <ClCompile Include="fopen-read.c" />
     <ClCompile Include="fopen-write.c" />
+    <ClCompile Include="fread and fwrite文件按塊讀寫.c" />
     <ClCompile Include="fscanf and fprintf.c" />
+    <ClCompile Include="fscanf fprintf 按照格式化讀寫文件.c" />
     <ClCompile Include="ftell and fseek 文件定位與查找.c" />
     <ClCompile Include="_access.c" />
     <ClCompile Include="數據塊IO fread_and_fwrite.c" />
     <ClCompile Include="文件型結構體.c" />
     <ClCompile Include="文件定位讀寫.c" />
+    <ClCompile Include="文件的結構體讀寫.c" />
+    <ClCompile Include="文件讀寫的基本操作.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

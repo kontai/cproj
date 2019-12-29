@@ -3,6 +3,8 @@
 cfun.c
 */
 
+#if 0
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<memory.h>
@@ -61,3 +63,5 @@ void mainCfun(){
 
 	system("pause");
 }
+
+#endif

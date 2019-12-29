@@ -13,7 +13,7 @@ struct csdn {
 	int num;
 };
 
-void main(){
+void mainCount(){
 	int num;
 	scanf("%d", &num);
 

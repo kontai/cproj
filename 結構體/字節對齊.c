@@ -14,8 +14,18 @@ ps:最寬基本成員,char int double float ...;結構體、數駔都不是最�
 
 3.成员地址-（结构体)首地址 ， 需要能够整除当前成员
 
-
 */
+
+
+
+
+/*
+#pragma pack 是用來指定 struct 結構內部資料的儲存對齊方式的預處理指令,會直接影響 struct 結構所使用的記憶體空間大小，以及每個內部變數的放置位置
+		     在處理低階資料結構（例如網路封包）時時常會需要使用到這個語法
+*/
+
+#pragma pack(1)	//指定對齊
+
 	struct addA 
 {
 		
@@ -63,7 +73,7 @@ ps:最寬基本成員,char int double float ...;結構體、數駔都不是最�
 
 
 
-void mainXX()
+void main()
 {
 	printf("%d\n", sizeof(struct addA));
 	printf("%d\n", sizeof(struct addB));
