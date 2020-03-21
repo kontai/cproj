@@ -22,6 +22,14 @@
     <ClCompile Include="cfun.c" />
     <ClCompile Include="fgets_test.c" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Pointer01.c">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pointer01.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{88F16DEA-6DD0-49C6-B838-BEC3EF934564}</ProjectGuid>

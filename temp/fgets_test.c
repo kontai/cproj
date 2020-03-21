@@ -8,6 +8,7 @@ fgets_test.c
 #include<stdio.h>
 #include<stdlib.h>
 
+#if 0
 void main() {
 	FILE* fp = fopen("../show.txt", "w");
 	char* str[] = { "aaa","bbb","ccc" };
@@ -37,3 +38,4 @@ void main() {
 
 	system("pause");
 }
+#endif

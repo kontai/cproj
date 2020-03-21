@@ -66,7 +66,7 @@ void my_fscanf(char* path)
 	}
 }
 
-void main() {
+void mainErr() {
 	Stu stu[3];
 	int i = 0;
 	for (i = 0; i < 3; i++)

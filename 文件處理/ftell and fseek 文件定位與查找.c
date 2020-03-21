@@ -2,13 +2,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include<locale.h>
+#include<time.h>
+#include <thread>
 
-
-int count(FILE* );
-
-void mainu()
+void main()
 {
-	FILE *pf;
+	LOCALE_ALL;
+
+	FILE* pf;
 	pf = fopen("d:\\1.txt", "r");
 
 	printf("total %d character\n", count(pf));  //ftell=>FILE pointer at begin
@@ -18,25 +19,26 @@ void mainu()
 	}
 	else {
 		while (!feof(pf)) {			//判斷文件是否讀取結束
-			wchar_t ch =  fgetc(pf);   //讀取字符
-			if(ch=='8')
+			wchar_t ch = fgetc(pf);   //讀取字符
+			if (ch == '8')
 			{
-			printf("\n找到'8',在第%d個字的位置\n", ftell(pf)); //利用ftell 尋找文件中字符
+				printf("\n找到'8',在第%d個字的位置\n", ftell(pf)); //利用ftell 尋找文件中字符
 			}
-			 putchar(ch);
+			putchar(ch);
 		}
-
 	}
 
 	printf("*************************\n");
 
-	printf("total %d character\n", count(pf));  //ftell=>FILE pointer at end of file 
+	printf("total %d character\n", count(pf));  //ftell=>FILE pointer at end of file
 
 	printf("*************************\n");
 
 	fclose(pf);
 	system("pause");
 }
+
+int count(FILE*);
 
 int count(FILE* cnt)
 {
