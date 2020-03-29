@@ -8,6 +8,21 @@ typedef數組指針.cpp
 #include<stdio.h>
 #include<stdlib.h>
 
+#if 0
+void note() {
+	typedef int AA[10];	//A:數組類型
+	AA b;	//int b[10],數組類型變量[普通變量]
+	AA* p;	//數組類型[數組指針變量]
+
+
+
+	typedef int(*P)[10];	//數組指針類型
+	P p;	//數組指針變量
+
+	int(*q)[10];	//數組指針變量
+}
+#endif
+
 void mainI(){
 	int a[10] = { 1,2,3 };
 	typedef int A[10];	//A:數組類型

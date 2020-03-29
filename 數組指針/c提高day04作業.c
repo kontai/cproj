@@ -100,7 +100,7 @@ void free_buf(char*** p3, int len)
 
 	char** tmp = *p3;
 	int i = 0;
-	for (i = 0; i < n; i++)
+	for (i = 0; i < len; i++)
 	{
 		if (tmp[i] != NULL)
 		{
