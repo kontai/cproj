@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="cfun.c" />
     <ClCompile Include="fgets_test.c" />
+    <ClCompile Include="structDemo.c" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Pointer01.c">

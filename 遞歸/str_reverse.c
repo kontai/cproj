@@ -7,6 +7,7 @@ str_reverse.c
 #include<stdlib.h>
 
 void revStr(char[]);
+#if 0
 
 void main() {
 	char ch[] = "abcdefg";
@@ -26,3 +27,4 @@ void revStr(char str[]) {
 	}
 	putchar(str[--i]);
 }
+#endif

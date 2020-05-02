@@ -11,6 +11,7 @@ Pointer01.c
 #include<string.h>
 #include<memory.h>
 
+#if 0
 int trimSpace(char* inbuf, char* outbuf)
 {
 	int i = 0, j = 0;
@@ -63,3 +64,5 @@ void main() {
 
 	system("pause");
 }
+
+#endif 0

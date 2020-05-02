@@ -2,6 +2,7 @@
 2018/11/11 8:41:30
 21.c
 */
+#if 0
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -35,4 +36,5 @@ void main(){
 
 	system("pause");
 }
+#endif
 

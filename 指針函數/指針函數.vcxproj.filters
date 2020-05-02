@@ -26,10 +26,13 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="指針函數.c">
+    <ClCompile Include="21.c">
       <Filter>原始程式檔</Filter>
     </ClCompile>
-    <ClCompile Include="21.c">
+    <ClCompile Include="函數指針數組.c">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="函數指針.c">
       <Filter>原始程式檔</Filter>
     </ClCompile>
   </ItemGroup>
