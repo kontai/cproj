@@ -96,6 +96,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "链表的逆序操作", "�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "內存洩漏", "sp\sp.vcxproj", "{1C8D4F23-E9D8-4D34-BFF8-5696D6445C8A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "數據結構_I_動態數組", "數據庫_I_動態數組\數據庫_I_動態數組.vcxproj", "{F01E383C-99C7-415E-A60A-8F8285A8DE58}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "數據結構_II_單向鏈表-版本一", "數據結構_II_單向鏈表-版本一\數據結構_II_單向鏈表-版本一.vcxproj", "{7D248C0D-FB9B-464B-8C80-075BED688F3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -546,6 +550,26 @@ Global
 		{1C8D4F23-E9D8-4D34-BFF8-5696D6445C8A}.Release|x64.Build.0 = Release|x64
 		{1C8D4F23-E9D8-4D34-BFF8-5696D6445C8A}.Release|x86.ActiveCfg = Release|Win32
 		{1C8D4F23-E9D8-4D34-BFF8-5696D6445C8A}.Release|x86.Build.0 = Release|Win32
+		{F01E383C-99C7-415E-A60A-8F8285A8DE58}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{F01E383C-99C7-415E-A60A-8F8285A8DE58}.Debug|x64.ActiveCfg = Debug|x64
+		{F01E383C-99C7-415E-A60A-8F8285A8DE58}.Debug|x64.Build.0 = Debug|x64
+		{F01E383C-99C7-415E-A60A-8F8285A8DE58}.Debug|x86.ActiveCfg = Debug|Win32
+		{F01E383C-99C7-415E-A60A-8F8285A8DE58}.Debug|x86.Build.0 = Debug|Win32
+		{F01E383C-99C7-415E-A60A-8F8285A8DE58}.Release|Any CPU.ActiveCfg = Release|Win32
+		{F01E383C-99C7-415E-A60A-8F8285A8DE58}.Release|x64.ActiveCfg = Release|x64
+		{F01E383C-99C7-415E-A60A-8F8285A8DE58}.Release|x64.Build.0 = Release|x64
+		{F01E383C-99C7-415E-A60A-8F8285A8DE58}.Release|x86.ActiveCfg = Release|Win32
+		{F01E383C-99C7-415E-A60A-8F8285A8DE58}.Release|x86.Build.0 = Release|Win32
+		{7D248C0D-FB9B-464B-8C80-075BED688F3F}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{7D248C0D-FB9B-464B-8C80-075BED688F3F}.Debug|x64.ActiveCfg = Debug|x64
+		{7D248C0D-FB9B-464B-8C80-075BED688F3F}.Debug|x64.Build.0 = Debug|x64
+		{7D248C0D-FB9B-464B-8C80-075BED688F3F}.Debug|x86.ActiveCfg = Debug|Win32
+		{7D248C0D-FB9B-464B-8C80-075BED688F3F}.Debug|x86.Build.0 = Debug|Win32
+		{7D248C0D-FB9B-464B-8C80-075BED688F3F}.Release|Any CPU.ActiveCfg = Release|Win32
+		{7D248C0D-FB9B-464B-8C80-075BED688F3F}.Release|x64.ActiveCfg = Release|x64
+		{7D248C0D-FB9B-464B-8C80-075BED688F3F}.Release|x64.Build.0 = Release|x64
+		{7D248C0D-FB9B-464B-8C80-075BED688F3F}.Release|x86.ActiveCfg = Release|Win32
+		{7D248C0D-FB9B-464B-8C80-075BED688F3F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
