@@ -18,17 +18,10 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="LinkList.c" />
-    <ClCompile Include="單向鏈表(版本一).c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="LinkList.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{7D248C0D-FB9B-464B-8C80-075BED688F3F}</ProjectGuid>
-    <RootNamespace>數據結構II單向鏈表版本一</RootNamespace>
+    <ProjectGuid>{C89FCA22-5FAD-4774-9491-FF176B15D29E}</ProjectGuid>
+    <RootNamespace>棧鏈式存儲</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -144,6 +137,15 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="04 栈的链式存储.c" />
+    <ClCompile Include="LinkList.c" />
+    <ClCompile Include="LinkStack.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LinkList.h" />
+    <ClInclude Include="LinkStack.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

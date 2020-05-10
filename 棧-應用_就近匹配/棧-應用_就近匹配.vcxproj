@@ -18,17 +18,10 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="LinkList.c" />
-    <ClCompile Include="單向鏈表(版本一).c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="LinkList.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{7D248C0D-FB9B-464B-8C80-075BED688F3F}</ProjectGuid>
-    <RootNamespace>數據結構II單向鏈表版本一</RootNamespace>
+    <ProjectGuid>{67C147F2-56FE-40E1-BD72-2E99CDB120AE}</ProjectGuid>
+    <RootNamespace>棧應用就近匹配</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -144,6 +137,13 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="05 栈的应用_就近匹配.c" />
+    <ClCompile Include="SeqStack.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SeqStack.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
