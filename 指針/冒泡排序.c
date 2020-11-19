@@ -4,6 +4,7 @@
 
 //冒泡排序法:相鄰兩元素比較,符合條件就做交換,經過(數組長度-1)的次數後就完成
 
+#if 0
 #define MAX_SIZE 20
 void main() {
 
@@ -35,3 +36,4 @@ void main() {
 
 	system("pause");
 }
+#endif

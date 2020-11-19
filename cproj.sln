@@ -110,6 +110,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "棧-鏈式存儲", "棧-鏈
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "棧-應用_就近匹配", "棧-應用_就近匹配\棧-應用_就近匹配.vcxproj", "{67C147F2-56FE-40E1-BD72-2E99CDB120AE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "隊列", "隊列\隊列.vcxproj", "{D7DCBF68-0166-41B5-AAF2-36C98F2666A9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二叉樹", "二叉樹\二叉樹.vcxproj", "{67F1DA0F-6D1A-4F54-9379-87058BA32871}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -630,6 +634,26 @@ Global
 		{67C147F2-56FE-40E1-BD72-2E99CDB120AE}.Release|x64.Build.0 = Release|x64
 		{67C147F2-56FE-40E1-BD72-2E99CDB120AE}.Release|x86.ActiveCfg = Release|Win32
 		{67C147F2-56FE-40E1-BD72-2E99CDB120AE}.Release|x86.Build.0 = Release|Win32
+		{D7DCBF68-0166-41B5-AAF2-36C98F2666A9}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{D7DCBF68-0166-41B5-AAF2-36C98F2666A9}.Debug|x64.ActiveCfg = Debug|x64
+		{D7DCBF68-0166-41B5-AAF2-36C98F2666A9}.Debug|x64.Build.0 = Debug|x64
+		{D7DCBF68-0166-41B5-AAF2-36C98F2666A9}.Debug|x86.ActiveCfg = Debug|Win32
+		{D7DCBF68-0166-41B5-AAF2-36C98F2666A9}.Debug|x86.Build.0 = Debug|Win32
+		{D7DCBF68-0166-41B5-AAF2-36C98F2666A9}.Release|Any CPU.ActiveCfg = Release|Win32
+		{D7DCBF68-0166-41B5-AAF2-36C98F2666A9}.Release|x64.ActiveCfg = Release|x64
+		{D7DCBF68-0166-41B5-AAF2-36C98F2666A9}.Release|x64.Build.0 = Release|x64
+		{D7DCBF68-0166-41B5-AAF2-36C98F2666A9}.Release|x86.ActiveCfg = Release|Win32
+		{D7DCBF68-0166-41B5-AAF2-36C98F2666A9}.Release|x86.Build.0 = Release|Win32
+		{67F1DA0F-6D1A-4F54-9379-87058BA32871}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{67F1DA0F-6D1A-4F54-9379-87058BA32871}.Debug|x64.ActiveCfg = Debug|x64
+		{67F1DA0F-6D1A-4F54-9379-87058BA32871}.Debug|x64.Build.0 = Debug|x64
+		{67F1DA0F-6D1A-4F54-9379-87058BA32871}.Debug|x86.ActiveCfg = Debug|Win32
+		{67F1DA0F-6D1A-4F54-9379-87058BA32871}.Debug|x86.Build.0 = Debug|Win32
+		{67F1DA0F-6D1A-4F54-9379-87058BA32871}.Release|Any CPU.ActiveCfg = Release|Win32
+		{67F1DA0F-6D1A-4F54-9379-87058BA32871}.Release|x64.ActiveCfg = Release|x64
+		{67F1DA0F-6D1A-4F54-9379-87058BA32871}.Release|x64.Build.0 = Release|x64
+		{67F1DA0F-6D1A-4F54-9379-87058BA32871}.Release|x86.ActiveCfg = Release|Win32
+		{67F1DA0F-6D1A-4F54-9379-87058BA32871}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
