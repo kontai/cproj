@@ -25,10 +25,19 @@ void main() {
 	printf("a=%d,b=%d", a, b);
 }
 
-#endif
 
 void main() {
 	char a = 'A';
 	printf("%d,%d\n", sizeof(a), sizeof('A'));
 	printf("%lc\n", L'§A¦n');
+}
+
+#endif
+
+void main() {
+	int ch1, ch2, ch3;
+	scanf("%d%d%d", &ch1, &ch2, &ch3);
+	printf("[%d][%d][%d]", ch1, ch2, ch3);
+	system("pause");
+
 }

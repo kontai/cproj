@@ -1,0 +1,7 @@
+﻿; MFCActiveXControl1-tools.def : 宣告模組參數。
+
+EXPORTS
+	DllCanUnloadNow     PRIVATE
+	DllGetClassObject   PRIVATE
+	DllRegisterServer   PRIVATE
+	DllUnregisterServer PRIVATE

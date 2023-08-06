@@ -1,0 +1,51 @@
+﻿// MFCActiveXControl1-tools.idl : ActiveX 控制項專案的型別程式庫來源。
+
+// 這個檔案會由 MIDL 編譯器工具處理，
+// 產生型別程式庫 (MFCActiveXControl1-tools.tlb)，而該程式庫將會成為下列位置的資源
+// MFCActiveXControl1-tools.ocx。
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(51c7b87e-4b4b-4d2f-93ac-cd78a524a233), version(1.0),
+  control ]
+library MFCActiveXControl1toolsLib
+{
+	importlib(STDOLE_TLB);
+
+	//  CMFCActiveXControl1toolsCtrl 的主要分派介面
+	[ 
+		uuid(82dc5345-5a96-4801-ad3f-340b2c3e20a0)
+	]
+	dispinterface _DMFCActiveXControl1tools
+	{
+		properties:
+		methods:
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+	};
+
+	//  CMFCActiveXControl1toolsCtrl 的事件分派介面
+
+	[ 
+		uuid(32f2575e-84a3-4c5b-a7b0-dd7df000473c)
+	]
+	dispinterface _DMFCActiveXControl1toolsEvents
+	{
+		properties:
+			//  事件介面沒有屬性
+
+		methods:
+	};
+
+	//  CMFCActiveXControl1toolsCtrl 的類別資訊
+	[
+		uuid(6dafc997-98e7-4a8b-b25a-5c12155f8542)
+	]
+	coclass MFCActiveXControl1tools
+	{
+		[default] dispinterface _DMFCActiveXControl1tools;
+		[default, source] dispinterface _DMFCActiveXControl1toolsEvents;
+	};
+
+};
